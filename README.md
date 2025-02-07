@@ -50,3 +50,9 @@ G850: 2ndF TEXT (C)
 G840: G (go)
 ~~~
 The `bas2img` option `-l0x400` adds line numbers to the C source automatically.
+
+## References
+
+- [	Lisp in 99 lines of C and how to write one yourself [pdf] (github.com/robert-van-engelen)](https://news.ycombinator.com/item?id=32100035)
+- [Lisp interpreter in 90 lines of C++ ](http://howtowriteaprogram.blogspot.com/2010/11/lisp-interpreter-in-90-lines-of-c.html)
+- [van Engelen, R. A. (2022). Lisp in 99 lines of C and how to write one yourself.](https://equable-twister-380.notion.site/van-Engelen-R-A-2022-Lisp-in-99-lines-of-C-and-how-to-write-one-yourself-193598edb79080818090ee1781f3aca7?pvs=74)

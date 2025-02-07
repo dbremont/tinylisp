@@ -2,11 +2,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+
 #define I unsigned
 #define L double
 #define T(x) *(unsigned long long*)&x>>48
 #define A (char*)cell
 #define N 1024
+
 I hp=0,sp=N,ATOM=0x7ff8,PRIM=0x7ff9,CONS=0x7ffa,CLOS=0x7ffb,NIL=0x7ffc;
 L cell[N],nil,tru,err,env;
 L box(I t,I i) { L x; *(unsigned long long*)&x = (unsigned long long)t<<48|i; return x; }
